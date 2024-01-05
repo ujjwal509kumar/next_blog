@@ -5,7 +5,6 @@ export async function GET(req) {
     try {
         const { searchParams } = new URL(req.url);
         const blogquery = searchParams.get("page");
-        console.log(blogquery);
 
         const data = await fs.promises.readFile(`app/blogdata/${blogquery}.json`, "utf8");
         const parsedData = JSON.parse(data);
