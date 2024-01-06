@@ -10,7 +10,7 @@ function Slug({ params }) {
 
   useEffect(() => {
     const slug = params.slug;
-    fetch(`https://next-blog-eight-rust.vercel.app/api/getblog?page=${slug}`)
+    fetch(`./../api/getblog?page=${slug}`)
       .then((response) => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
