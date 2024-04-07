@@ -15,7 +15,7 @@ const footer = () => {
                     </p>
                     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
                         <a className="text-gray-500">
-                            Made with &#10084; and <code>&lt;/Code&gt;</code>
+                            Crafted with &#10084; and <code>&lt;/Code&gt;</code>
                         </a>
                     </span>
                 </div>
